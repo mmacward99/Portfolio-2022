@@ -1,0 +1,626 @@
+:root {
+  --white:#ffffff;
+}
+
+body {
+  background-color: #000;
+}
+
+.plant {
+  width: 100%;
+  font-weight: 200;
+  margin-bottom: 100px;
+}
+
+.title {
+  font-weight: 200;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.btn-secondary {
+  margin-left: 400px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 25px;
+  background-color: #000;
+  font-weight: 200;
+  border: none;
+  --bs-btn-bg: #000;
+  --bs-btn-border-color: #000;
+  --bs-btn-hover-bg: #000;
+  --bs-btn-active-bg: #000;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.btn-secondary:hover:focus:active {
+  border: none;
+  background-color: #000;
+  --bs-btn-bg: #000;
+  --bs-btn-border-color: #000;
+  --bs-btn-hover-bg: #000;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  background-color: #000;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+}
+
+.container-fluid {
+  background-color: #000;
+  color: #fff;
+  font-family: "Archivo", sans-serif;
+}
+
+.name {
+  font-family: "Archivo", sans-serif;
+  font-size: 100px;
+  text-align: center;
+  font-weight: 200;
+  color: #fff;
+}
+
+footer {
+  padding-top: 5px;
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: #fff;
+  background-color: #000;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto 0;
+}
+
+.btn-primary {
+  align-items: center;
+  width: 250px;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 1px;
+  text-align: center;
+  font-size: 25px;
+  background-color: #000;
+  border-color: white;
+  font-weight: 200;
+  --bs-btn-active-bg: #ffffff;
+  --bs-btn-active-color: #000;
+  --bs-btn-active-border-color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.learn {
+  padding: 25px;
+  text-align: center;
+}
+
+.linked {
+  padding-top: 35px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.icon {
+  color: #000;
+  background-color: #fff;
+}
+
+.description {
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.text {
+  text-align: center;
+  font-weight: 200;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.center {
+  padding-top: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin: 0;
+  font-family: "Verdana";
+}
+
+p {
+  margin: 0;
+  font-weight: 200;
+}
+
+.personal {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+}
+
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+  color: #fff;
+  position: relative;
+}
+
+.conatiner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-bottom: 50px;
+}
+
+.carousel-item {
+  align-items: center;
+}
+
+.syvfc {
+  padding: 25px;
+}
+
+.personal {
+  padding-top: 50px;
+}
+
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  left: 30px;
+  /* Place the button 30px from the right */
+  z-index: 1;
+  /* Make sure it does not overlap */
+  background-color: #000;
+  /* Set a background color */
+  color: #fff;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */
+  font-family: "Anybody", cursive;
+  font-weight: 200;
+  border-color: #fff;
+  border-style: solid;
+}
+
+#myBtn:hover {
+  background-color: #fff;
+  /* Add a dark-grey background on hover */
+  color: #000;
+}
+
+.row {
+  border-width: 0.5px;
+  border-style: solid;
+  border-color: #fff;
+}
+
+.footer {
+  bottom: 0;
+  margin: 0 auto !important;
+  text-align: center !important;
+  width: 100% !important;
+  height: 40px;
+  position: fixed;
+}
+
+html {
+  --rotating-font-size:14px;
+  --rotating-font-width:110px;
+  --rotating-font-letter-spacing:.3px;
+}
+
+/*Main Container*/
+.rotating-text-con {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  height: 100px;
+  justify-content: center;
+  margin-bottom: -10px;
+  margin-top: -40px !important;
+}
+
+/*Text Wrap*/
+.rotating-text-wrap {
+  font-family: "Archivo", sans-serif;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  z-index: 2;
+  bottom: 30px;
+  right: 30px;
+}
+
+/*Text Circle*/
+.rotating-text-circle {
+  color: #fff;
+  height: auto;
+  transform-origin: center;
+  width: var(--rotating-font-width);
+}
+
+/*Font Styles*/
+.rotating-text {
+  color: #fff;
+  fill: var(--white) !important;
+  font-family: var(--heading);
+  font-size: var(--rotating-font-size);
+  letter-spacing: var(--rotating-font-letter-spacing);
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/*Rotating Animation*/
+@-webkit-keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes reverse-rotating {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+@keyframes reverse-rotating {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+.rotating {
+  -webkit-animation: rotating 20s linear infinite;
+          animation: rotating 20s linear infinite;
+}
+
+.reverse-rotating {
+  -webkit-animation: reverse-rotating 20s linear infinite;
+          animation: reverse-rotating 20s linear infinite;
+}
+
+@media only screen and (max-width: 600px) {
+  :root {
+    --white:#ffffff;
+  }
+  .plant {
+    align-items: center;
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .title {
+    font-weight: 200;
+  }
+  /* Style the button that is used to open and close the collapsible content */
+  .btn-secondary {
+    margin-left: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #000;
+    font-weight: 200;
+    border: none;
+    --bs-btn-bg: #000;
+    --bs-btn-border-color: #000;
+    --bs-btn-hover-bg: #000;
+    --bs-btn-active-bg: #000;
+  }
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .btn-secondary:hover {
+    --bs-btn-bg: #000;
+    --bs-btn-border-color: #000;
+    --bs-btn-hover-bg: #000;
+    --bs-btn-active-bg: #000;
+    color: #fff;
+  }
+  /* Style the collapsible content. Note: hidden by default */
+  .content {
+    background-color: #000;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out;
+  }
+  .container-fluid {
+    background-color: #000;
+    color: #fff;
+    font-family: "Archivo", sans-serif;
+  }
+  .name {
+    font-family: "Archivo", sans-serif;
+    font-size: 100px;
+    text-align: center;
+    font-weight: 200;
+    color: #fff;
+  }
+  .btn-primary {
+    align-items: center;
+    width: 250px;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 1px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #000;
+    border-color: white;
+    font-weight: 200;
+    --bs-btn-active-bg: #ffffff;
+    --bs-btn-active-color: #000;
+    --bs-btn-active-border-color: #ffffff;
+  }
+  .btn-primary:hover {
+    background-color: #fff;
+    color: #000;
+  }
+  .learn {
+    padding: 25px;
+    text-align: center;
+  }
+  .linked {
+    text-align: center;
+    font-size: 25px;
+  }
+  .icon {
+    color: #000;
+    background-color: #fff;
+  }
+  .description {
+    text-align: center;
+  }
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s ease;
+  }
+  .text {
+    text-align: center;
+    font-weight: 200;
+  }
+  h1 {
+    text-align: center;
+  }
+  h2 {
+    text-align: center;
+  }
+  .title {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .center {
+    padding-top: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  body {
+    margin: 0;
+    font-family: "Verdana";
+  }
+  p {
+    margin: 0;
+    font-weight: 200;
+  }
+  .personal {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+  }
+  .carousel-item {
+    height: 32rem;
+    background-color: #777;
+    color: #fff;
+    position: relative;
+  }
+  .conatiner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+  }
+  .carousel-item {
+    align-items: center;
+  }
+  .syvfc {
+    padding: 25px;
+  }
+  .personal {
+    padding-top: 50px;
+  }
+  .about {
+    padding-left: 25px;
+    padding-bottom: 25px;
+  }
+  #myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 420px;
+    /* Place the button 30px from the right */
+    z-index: 1;
+    /* Make sure it does not overlap */
+    background-color: #000;
+    /* Set a background color */
+    color: #fff;
+    /* Text color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 18px;
+    /* Increase font size */
+    font-family: "Anybody", cursive;
+    font-weight: 200;
+    border-color: #fff;
+    border-style: solid;
+  }
+  #myBtn:hover {
+    background-color: #fff;
+    /* Add a dark-grey background on hover */
+    color: #000;
+  }
+  .row {
+    border-width: 0.5px;
+    border-style: solid;
+    border-color: #fff;
+  }
+  .footer {
+    bottom: 0;
+    margin: 0 auto !important;
+    text-align: center !important;
+    width: 100% !important;
+    height: 40px;
+    position: absolute;
+  }
+  html {
+    --rotating-font-size:14px;
+    --rotating-font-width:90px;
+    --rotating-font-letter-spacing:2px;
+  }
+  /*Main Container*/
+  .rotating-text-con {
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+    margin-bottom: -10px;
+    margin-top: -40px !important;
+  }
+  /*Text Wrap*/
+  .rotating-text-wrap {
+    font-family: "Archivo", sans-serif;
+    color: #fff;
+    text-align: center;
+    z-index: 2;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+  }
+  /*Text Circle*/
+  .rotating-text-circle {
+    color: #fff;
+    height: auto;
+    transform-origin: center;
+    width: var(--rotating-font-width);
+  }
+  /*Font Styles*/
+  .rotating-text {
+    color: #fff;
+    fill: var(--white) !important;
+    font-family: var(--heading);
+    font-size: var(--rotating-font-size);
+    letter-spacing: var(--rotating-font-letter-spacing);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 10px;
+  }
+  /*Rotating Animation*/
+  @-webkit-keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  @-webkit-keyframes reverse-rotating {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+  @keyframes reverse-rotating {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }
+  .rotating {
+    -webkit-animation: rotating 20s linear infinite;
+            animation: rotating 20s linear infinite;
+  }
+  .reverse-rotating {
+    -webkit-animation: reverse-rotating 20s linear infinite;
+            animation: reverse-rotating 20s linear infinite;
+  }
+}/*# sourceMappingURL=style.css.map */
